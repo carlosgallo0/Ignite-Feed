@@ -18,4 +18,17 @@
 }
 
 body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+  /* isso deixa a fonte padrozinhada/detalhada */
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
