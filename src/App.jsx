@@ -17,10 +17,6 @@ export function App() {
             author=" carlos.gallo"
             content="Impedit, nobis omnis dolor tempore dolores repellat excepturi illu"
           ></Post>
-          <Post
-            author=" carlos.gallo"
-            content="Impedit, nobis omnis dolor tempore dolores repellat excepturi illu"
-          ></Post>
         </main>
       </div>
     </div>
