@@ -38,7 +38,6 @@ export function Post(props) {
       </form>
 
       <div className={styles.commentList}>
-        <span>oi</span>
         <Comment />
         <Comment />
         <Comment />

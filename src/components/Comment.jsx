@@ -7,8 +7,7 @@ export function Comment() {
       <img src="https://github.com/carlosgallo0.png" alt="" />
 
       <div className={styles.commentBox}>
-        <div>
-          className={styles.commentContent}
+        <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
               <strong>Carlos Gallo</strong>
@@ -19,15 +18,15 @@ export function Comment() {
                 publicado ha 1h
               </time>
             </div>
-            <button title="Deletar comentário"></button>
-
-            <Trash size={20}></Trash>
+            <button title="Deletar comentário">
+              <Trash size={24}></Trash>
+            </button>
           </header>
           <p>Muito bom! parabens</p>
         </div>
         <footer>
           <button>
-            <ThumbsUp>Aplaudir</ThumbsUp> <span>20</span>
+            <ThumbsUp></ThumbsUp>Aplaudir<span>20</span>
           </button>
         </footer>
       </div>
